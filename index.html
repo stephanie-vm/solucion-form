@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        font-family: Lato;
+      }
+
+      .line {
+        margin-bottom: 1rem;
+      }
+
+      .line label {
+        display: block;
+      }
+
+      .mensaje-error {
+        background-color: pink;
+        border: 1px solid red;
+      }
+
+      .mensaje-valido {
+        background-color: lightgreen;
+        border: 1px solid darkgreen;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Ejercicio de manipular el dom</h1>
+    <p>Abre el archivo <code>script.js</code> para instrucciones</p>
+
+    <hr />
+
+    <h3>Validar el siguiente formulario</h3>
+    <form action="">
+      <div class="line">
+        <label for="">Nombre *</label>
+        <input type="text" name="nombre" class="requerido" />
+      </div>
+
+      <div class="line">
+        <label for="">Apellido *</label>
+        <input type="text" name="apellido" class="requerido" />
+      </div>
+
+      <div class="line">
+        <label for="">Email *</label>
+        <input type="email" name="email" class="requerido" />
+      </div>
+
+      <div class="line">
+        <label for="">Telefono</label>
+        <input type="phone" />
+      </div>
+
+      <button>
+        Enviar
+      </button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
